@@ -1,0 +1,196 @@
+/* New Bono CSS */
+*{
+    
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.headerBox {
+    margin-top: 60px;
+    
+    height: 700px;
+    background-color: grey;
+    background-image: url(smileBackground.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.headerBox h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 5.6em;
+    margin-top: 240px;
+}
+#logo {
+    padding-top: 2px;
+    padding-left: 20px;
+    float: left;
+}
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+}
+nav ul {
+    
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+nav ul li {
+    
+    text-align: center;
+    list-style: none;
+    list-style-position: center;
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a{
+    font-family: 'Rambla', sans-serif;
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+    transition: background-color 0.5s ease;
+
+}
+nav ul li a:hover{
+    color: black;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.3);
+    
+    
+}
+.box {
+    margin-top: 50px;
+}
+
+.container {
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.leftBox {
+  
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.leftBox h3 {
+    text-align: center;
+    color: white;
+
+}
+
+.leftBox p {
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+
+.rightBox {
+   
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+.rightBox h3{
+    text-align: center;
+    color: white;
+}
+
+.centerBox {
+    background-color: grey;
+    image-orientation: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.centerBox h3 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.centerBox p{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.purpose {
+    height: 400px;
+}
+.purpose h2 {
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.purpose p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.footerBox {
+    background-color: grey;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footerBox h3{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+}
+
+.footerBox ul li {
+    margin-left: 50%;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footerBox ul li a {
+    
+}
+
+.footerBox p {
+    color: white;
+    text-align: center;
+    
+}
